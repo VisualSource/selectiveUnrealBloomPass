@@ -13,7 +13,7 @@ export default defineConfig({
             formats: ["es"],
             entry:  './src/UnrealBloomPass.ts',
             name: 'selectiveUnrealBloomPass',
-            fileName: (format) => `selectivenrealbloompass.${format}.js`
+            fileName: (format) => `selectiveunrealbloompass.${format}.js`
         },
         rollupOptions: {
         // make sure to externalize deps that shouldn't be bundled

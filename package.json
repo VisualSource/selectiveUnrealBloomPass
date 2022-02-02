@@ -1,9 +1,8 @@
 {
-  "name": "selectivenrealbloompass",
+  "name": "selectiveunrealbloompass",
   "version": "1.0.0",
   "description": "A Moddified version of ThreeJS UnrealBloomPass with builtin support for selective application on objects",
-  "main": "./dist/selectivenrealbloompass.umd.js",
-  "module": "./dist/selectivenrealbloompass.es.js",
+  "module": "./dist/selectiveunrealbloompass.es.js",
   "types": "./dist/UnrealBloomPass.d.ts",
   "files": [
     "dist"
@@ -33,8 +32,8 @@
   },
   "exports": {
     ".": {
-      "default": "./dist/selectivenrealbloompass.es.js",
-      "import": "./dist/selectivenrealbloompass.es.js"
+      "default": "./dist/selectiveunrealbloompass.es.js",
+      "import": "./dist/selectiveunrealbloompass.es.js"
     }
   }
 }
