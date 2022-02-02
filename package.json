@@ -1,6 +1,6 @@
 {
   "name": "@visualsource/selective-unrealbloompass",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Moddified version of ThreeJS UnrealBloomPass with builtin support for selective application on objects",
   "module": "./dist/selectiveunrealbloompass.es.js",
   "types": "./dist/UnrealBloomPass.d.ts",

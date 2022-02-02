@@ -63,13 +63,15 @@ The examples are in the examples folder and are the sample as threejs versions b
 
 ## Version History
 
+* 1.0.1
+    * Fixed README Typos
 * 1.0.0
     * Initial Release
 
 
 ## License
 
-This project is licensed under the VisualSrouce License - see the LICENSE file for details
+This project is licensed under the MIT License - see the LICENSE file for details
 
 ## Acknowledgments
 
