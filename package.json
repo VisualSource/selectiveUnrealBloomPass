@@ -19,6 +19,8 @@
     "preview": "vite preview"
   },
   "keywords": [
+    "three",
+    "postprocessing",
     "ThreeJS",
     "UnrealBloomPass"
   ],
