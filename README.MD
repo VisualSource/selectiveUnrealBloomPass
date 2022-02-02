@@ -13,7 +13,7 @@ This is a modification of the UnrealBloomPass for Three.js. This project integra
 ### Installing
 
 ```
- npm i @VisualSource/selectiveunrealbloompass
+ npm i @visualsource/selective-unrealbloompass
 ```
 
 ## Getting Started
@@ -21,7 +21,7 @@ This is a modification of the UnrealBloomPass for Three.js. This project integra
 ### Normal UnrealBloomPass
 
 ```
-import { SelectiveUnrealBloomPass } from '@VisualSource/selectiveunrealbloompass';
+import { SelectiveUnrealBloomPass } from '@visualsource/selective-unrealbloompass';
 
 const bloomPass = new SelectiveUnrealBloomPass( new THREE.Vector2( window.innerWidth, window.innerHeight ), 1.5, 0.4, 0.85);
 
@@ -33,7 +33,7 @@ composer.addPass( bloomPass );
 ### Selective UnrealBloomPass
 
 ```
-import { SelectiveUnrealBloomPass } from '@VisualSource/selectiveunrealbloompass';
+import { SelectiveUnrealBloomPass } from '@visualsource/selective-unrealbloompass';
 
 const BLOOM = 1;
 
