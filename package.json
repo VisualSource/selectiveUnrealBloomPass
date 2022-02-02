@@ -1,0 +1,40 @@
+{
+  "name": "selectivenrealbloompass",
+  "version": "1.0.0",
+  "description": "A Moddified version of ThreeJS UnrealBloomPass with builtin support for selective application on objects",
+  "main": "./dist/selectivenrealbloompass.umd.js",
+  "module": "./dist/selectivenrealbloompass.es.js",
+  "types": "./dist/UnrealBloomPass.d.ts",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc --emitDeclarationOnly",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "ThreeJS",
+    "UnrealBloomPass",
+    "Javascript",
+    "Typescript"
+  ],
+  "author": "VisualSource",
+  "license": "MIT",
+  "peerDependencies": {
+    "three": ">= 0.137.5"
+  },
+  "devDependencies": {
+    "@types/three": "^0.137.0",
+    "typescript": "^4.5.5",
+    "vite": "^2.7.13",
+    "vite-plugin-string": "^1.1.2"
+  },
+  "exports": {
+    ".": {
+      "default": "./dist/selectivenrealbloompass.es.js",
+      "import": "./dist/selectivenrealbloompass.es.js"
+    }
+  }
+}
